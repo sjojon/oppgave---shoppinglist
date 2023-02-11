@@ -2,7 +2,6 @@
 let list = [];
 let onChange;
 
-
 //view
 view()
 function view() {
