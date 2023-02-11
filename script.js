@@ -12,7 +12,8 @@ function view() {
     <button onclick="addItem">Legg til</button>
     `;
     for (i = 0; list.length > i; i++) {
-        html += /*html*/`<li> ${list[i]}</li><br>
+        html += /*html*/`
+        <li> ${list[i]}</li><br>
         <button onclick="removeItem(${i})">Slett</button>
         <button onclick="changeItem">Forandre</button>
         <input type="text" onchange="changeItem(this.value, ${i})">
